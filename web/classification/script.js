@@ -3,7 +3,7 @@
 
 class LungTumorClassifier {
   constructor() {
-    this.spaceUrl = "aliakrem/lung_tumor_prediction";
+    this.spaceUrl = "Bellahouell/lung_predict_api";
     this.gradioClient = null;
     this.chart = null;
     this.currentImage = null;
