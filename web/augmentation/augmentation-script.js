@@ -2,7 +2,7 @@
 
 class ImageAugmentationApp {
   constructor() {
-    this.spaceUrl = "aliakrem/aug";
+    this.spaceUrl = "Bellahouell/lung_augmentation_api";
     this.gradioClient = null;
     this.currentImage = null;
     this.augmentationResults = null;
