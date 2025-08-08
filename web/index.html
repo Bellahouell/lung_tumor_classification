@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lung Tumor Analysis - Redirecting...</title>
+        <meta http-equiv="refresh" content="0;url=classification/index.html" />
+        <style>
+            body {
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+                    sans-serif;
+                background-color: #1e1e1e;
+                color: #cccccc;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                margin: 0;
+                padding: 20px;
+                text-align: center;
+            }
+            h1 {
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 30px;
+            }
+            .loader {
+                border: 5px solid #252526;
+                border-top: 5px solid #007acc;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                animation: spin 1s linear infinite;
+                margin-bottom: 30px;
+            }
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
+            a {
+                color: #007acc;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="loader"></div>
+        <h1>🫁 Lung Tumor Analysis</h1>
+        <p>Redirecting to the new classification page...</p>
+        <p>
+            If you are not redirected automatically,
+            <a href="classification/index.html">click here</a>.
+        </p>
+
+        <script>
+            // Redirect after a short delay
+            setTimeout(function () {
+                window.location.href = "classification/index.html";
+            }, 1500);
+        </script>
+    </body>
+</html>
